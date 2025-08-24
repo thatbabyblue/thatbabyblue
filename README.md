@@ -12,18 +12,16 @@
 
 ## ⚓️ What I’m About
 
-Who would have thought some dabbling with LLMs, deep learning stuff has become some ongoing passion! I build and refine **LLM-powered systems**—from training tiny character-level GPTs to wiring up **inference pipelines**, **fine-tuning**, and **tool use/agents** for real apps. I care about:
-- **Solid engineering** (profiling, testing, reproducibility)
-- **Model quality** (data curation, evals, guardrails)
+Who would have thought some dabbling with LLMs, deep learning stuff has become some ongoing interest. I've built and refined **LLM-powered systems**—from training tiny character-level GPTs, wiring up **inference pipelines**, **fine-tuning**, and **tool use/agents** for real apps to creating an AI job search agent. Researching into recent development of LLMs, I also discovered the potential bottleneck of text-based generative models architecture. I found out there's this other architecture, namely world model, has been making some headlines. Google DeepMind recently released [**Genie 3**](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/), which is based on this architecture. I'm exploring more towards that direction.    
 
 ---
 
 ## 🧠 Deep Learning & LLMs
 
-- **Training/Fine-Tuning**: GPT-style Transformers, LoRA/PEFT, efficient training on consumer GPUs
+- **Training/Fine-Tuning**: GPT-style Transformers
 - **Inference/Serving**: vLLM, TGI, TensorRT-LLM, quantization (INT8/4), KV-cache tuning
-- **Data & Evals**: dataset prep, prompt templating, hallucination checks, automatic eval harnesses
-- **Tooling**: PyTorch, Hugging Face, Triton kernels (intro), ONNX, Weights & Biases
+- **Data & Evals**: dataset prep
+- **Tooling**: PyTorch
 
 **Recent highlights**
 - Built a **MiniGPT** (char-level) from scratch in PyTorch, trained on Shakespeare then fine-tuned on modern English (sampling, top-k/top-p, temperature).
@@ -35,16 +33,16 @@ Who would have thought some dabbling with LLMs, deep learning stuff has become s
 ## 🛠️ Developer Toolkit
 
 **Languages**
-- Python • Java • C++ • TypeScript/JavaScript • Bash
+- Python • Java • C++ • Bash
 
 **Frameworks/Libs**
-- PyTorch • Transformers • FastAPI • Spring Boot • gRPC • React
+- PyTorch • Transformers • numpy
 
 **Systems/DevOps**
-- Docker • GitHub Actions • Linux • Make • Profilers (nvtop, nsight, perf)
+- Docker • Linux
 
 **Data/Storage**
-- SQLite/Postgres • Redis • Parquet/Arrow • Pandas/Polars
+- Pandas
 
 ---
 
@@ -56,32 +54,11 @@ Train-from-scratch GPT with multi-head causal attention, GELU MLPs, layernorm, a
 - **Highlights**: clean generation API, top-k, temperature, gradient clipping
 - Repo: `thatbabyblue/GPTmini`
 
-### 🔹 LLM Fine-Tuning Starter (LoRA/PEFT)
-Template for supervised fine-tuning + eval harness on modest GPUs.
-- **Tech**: PyTorch, PEFT, HF Datasets
-- **Highlights**: mixed precision, checkpoint resume, eval dashboards
-
-### 🔹 Java/C++ Systems Utilities
-A grab-bag of performance-minded utilities, CI templates, and benchmarks.
-
-> Want a polished README for any of these repos? Ping me—I’ll ship one fast.
-
----
-
-## 📈 Stats (because why not)
-
-<p align="left">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=thatbabyblue&show_icons=true&hide_title=true&count_private=true&hide=prs&include_all_commits=true" alt="GitHub Stats">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thatbabyblue&layout=compact&hide_title=true&langs_count=8" alt="Top Langs">
-</p>
-
----
 
 ## 🗺️ What I’m Exploring Next
 
-- **RAG systems** with robust retrieval & evals (colBERT, rerankers)
 - **Agent frameworks** (tool use, planning), reliability in prod
-- **Quantization** trade-offs: speed vs quality at different context lengths
+- **World Models** its theory and its state-of-the-art applications
 
 ---
 
