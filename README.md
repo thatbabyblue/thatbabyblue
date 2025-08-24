@@ -1,6 +1,6 @@
 <!-- Centered banner/logo (optional) -->
 <p align="center">
-  <img src="assets/logo.png" alt="Logo" width="180">
+  <img src="logo/cats_typing.gif" alt="Logo" width="180">
 </p>
 
 <h1 align="center">Hi, I'm Sean 👋</h1>
